@@ -1,13 +1,13 @@
 
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Lottery from './components/Lottery'
+import Lottery from './components/Lottery/Lottery'
+import Roulette from './components/Roulette/Roulette'
 
 function App() {
   return (
     <>
-      <Lottery/>
+      {/* <Lottery/> */}
+      <Roulette/>
     </>
   )
 }

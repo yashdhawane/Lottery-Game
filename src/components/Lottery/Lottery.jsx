@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import TicketDisplay from './TicketDisplay';
 import WinningMessage from './WinningMessage';
-import { generateTicket, checkWinningCondition } from '../utils/lotteryUtils';
-import {WINNING_SUM,TICKET_SIZES} from '../config/Gamesetting';
+import { generateTicket, checkWinningCondition } from '../../utils/lotteryUtils';
+import {WINNING_SUM,TICKET_SIZES} from '../../config/Gamesetting';
 
 
 const Lottery = () => {
